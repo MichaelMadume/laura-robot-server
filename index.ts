@@ -22,5 +22,5 @@ io.on("connection", (socket) => {
   });
 });
 
-httpServer.listen(443);
+httpServer.listen(8080);
 console.log("Listening for requests");
